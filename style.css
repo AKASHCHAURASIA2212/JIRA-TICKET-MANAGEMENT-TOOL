@@ -70,8 +70,8 @@ body {
 }
 
 .modal-cont {
-  height: 50vh;
-  width: 40vw;
+  height: 20rem;
+  width: 30rem;
   background-color: rgb(20, 22, 20);
   position: absolute;
   top: calc(100vh / 2);
@@ -201,8 +201,8 @@ body {
 /* desktop screen*/
 @media (min-width: 425px) and (max-width: 760px) {
   .modal-cont {
-    height: 30vh;
-    width: 80vw;
+    height: 20rem;
+    /* width: 80vw; */
     background-color: rgb(20, 22, 20);
     position: absolute;
     top: calc(100vh / 2);
@@ -272,15 +272,15 @@ body {
   .modal-cont {
     display: flex;
     flex-direction: column;
-    width: 70vw;
-    height: 50vh;
+    width: 16rem;
+    /* height: 20rem; */
   }
 
   .addBtn {
     position: absolute;
     height: 3rem;
     width: 3rem;
-    top: -20%;
+    top: -30%;
     right: 5%;
   }
   .textarea-cont {
